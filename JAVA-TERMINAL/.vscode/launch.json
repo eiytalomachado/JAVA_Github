@@ -6,9 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
+            "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
+            "projectName": "java-terminal_f7bf1614"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "AboutMe1",
             "args": [
                 "Glesyon",
                 "Oliveira",
