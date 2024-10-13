@@ -11,7 +11,7 @@ public class personagem {
 
     // método que não retorna cada e recebe um parâmetro alvo que é do tipo String
     void atacar(String alvo){
-        System.out.format("%s atacou %s de dano e causou %d de dano\n", nome, alvo, forca);  
+        System.out.format("%s atacou %s de dano e causou %d de dano\n", nome, alvo, forca);   
   }
     
 }
