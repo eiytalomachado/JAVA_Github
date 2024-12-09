@@ -1,17 +1,9 @@
 public class app {
     public static void main(String[] args) {
-        personagem  heroi = new personagem();
+        ContaNetflix conta = new ContaNetflix();
 
-        heroi.nome = "hercules";
-        heroi.nivel = 2;
-        heroi.forca = 16;
+       conta.entrar();
+       conta.assistirFilme("venon");
 
-        heroi.mostrarStatus();   
-        // chamei um metood atacar e passsei como argumento uma string hydra"
-        heroi.atacar("hydra");  
-    
-
-}
-
-    
+    }
 }
